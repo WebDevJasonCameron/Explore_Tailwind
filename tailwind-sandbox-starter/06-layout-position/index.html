@@ -9,26 +9,77 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Absolute Chile</p>
+      </div>
+    </div>
+    <br>
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br>
 
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br>
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br>
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br>
+
 
     <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 inset-x-0 h-16 bg-yellow-300"></div>
+    </div>
+    <br>
 
     <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 inset-y-0 w-16 bg-yellow-300"></div>
+    </div>
+    <br>
 
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 inset-y-0 w-16 bg-yellow-300"></div>
+    </div>
+    <br>
 
     <!-- Span bottom edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
+    <br>
 
     <!-- Display Classes -->
-
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci aperiam assumenda beatae dolore eaque eos <span class="inline font-bold">This is inline </span> fugit harum illo, <span class="inline-block font-bold">This is inline block </span>itaque odit <span class="block font-bold">This is block </span>pariatur praesentium quae quo <span class="hidden font-bold">This is hidden </span>reiciendis sint vitae voluptatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consectetur eos incidunt iste minus, obcaecati quibusdam quos ratione veritatis voluptates. Exercitationem fugiat nesciunt sint? Adipisci beatae doloribus eos possimus sed.
+    </div>
+    <br>
     <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300 z-40">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-blue-400">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-blue-500">3</div>
+      <div class="absolute left-60 w-24 h-24 bg-blue-600 z-10">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-blue-700">5</div>
+    </div>
+
 
     <!-- Floats -->
   </body>
