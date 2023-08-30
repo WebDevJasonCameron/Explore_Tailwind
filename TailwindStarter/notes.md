@@ -43,4 +43,6 @@ Run the following in the terminal:
 npm run build
 ```
 
+### 6. To watch, run...
 
+```npm run watch```
