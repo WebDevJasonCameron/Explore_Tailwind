@@ -2,8 +2,8 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
-      screens: {
-          sm: '480',
+      screen: {
+          sm: '400',
           md: '768',
           lg: '976',
           xl: '1440',
@@ -13,7 +13,7 @@ module.exports = {
           strongCyan: 'hsl(171, 66%, 44%)',
           lightBlue: 'hsl(233, 100%, 69%)',
           darkGrayishBlue: 'hsl(210, 10%, 33%)',
-          graishBlue: 'hsl(201, 11%, 66%)',
+          grayishBlue: 'hsl(201, 11%, 66%)',
         },
         fontFamily: {
             sans: ['Bai Jamjuree', 'sans-serif']
